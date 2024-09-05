@@ -76,3 +76,6 @@ Change to "Power menu".
 If the emulator fail to start, delete the folder e.g android-34 inside C:\SDK\system-images\
 Open B4A SDK Manager, download the new emulator image.\
 Once finished download, create a new emulator from B4A AVD Manager.
+
+### Preview
+<img src="https://github.com/pyhoon/Tips-or-Tricks-for-using-Android-Emulator/raw/main/android-emulator.png" title="Android Emulator" width="320" />
