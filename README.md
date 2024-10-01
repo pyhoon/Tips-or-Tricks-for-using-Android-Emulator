@@ -77,5 +77,9 @@ If the emulator fail to start, delete the folder e.g android-34 inside C:\SDK\sy
 Open B4A SDK Manager, download the new emulator image.\
 Once finished download, create a new emulator from B4A AVD Manager.
 
+**12. Play Protect**
+
+There is no point to enable Play Protect and it's updates. If you are using a Google API Playstore emulator system image, open Play store app and tap on the 3 dots on top right corner and disable any settings that no applicable.
+
 ### Preview
 <img src="https://github.com/pyhoon/Tips-or-Tricks-for-using-Android-Emulator/raw/main/android-emulator.png" title="Android Emulator" width="320" />
