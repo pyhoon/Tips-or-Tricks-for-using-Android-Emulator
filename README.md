@@ -13,7 +13,7 @@ While you can change the font size on display settings, the pixels are still too
 Add hw.lcd.density=240 to the C:\Users\USERNAME\\.android\avd\EMULATOR_NAME.ini file.
 
 If this doesn't work for you, modify C:\SDK\B4AEmulator\EMULATOR_NAME.ini\
-hw.lcd.density = 240
+```hw.lcd.density = 240```
 
 **3. Change wallpaper**
 
@@ -56,7 +56,14 @@ You can change the keyboard by clicking on the Globe key.
 Make sure you have some apps opened. Click the square button (vertical control on the right of emulator if it is in Portrait mode) to see the recent apps list.\
 The Screenshot function is at the bottom.
 
-**9. Setting location in Google map**
+**9. Enable navigation buttons**
+
+If you missed the classic navigation buttons (Triangle - Circle - Square) or (Back - Home - Recent Apps) then you can show it by modifying the setting in
+config.ini inside C:\SDK\B4AEmulator\6in_Phone_Platform_34_google_apis_playstore
+
+Set ```hw.mainKeys=no```
+
+**10. Setting location in Google map**
 
 Use the 3 dots button to go to the Location setting.\
 Search a location or click a point on the map to show a red pin.\
@@ -64,20 +71,20 @@ Click SAVE POINT. Give a name and click OK.\
 Select a location from the Saved point list and click on button SET LOCATION at the bottom right corner.\
 Check on Google map app to see the location is changed.
 
-**10. Power menu**
+**11. Power menu**
 
 In new version of Android, when clicking and holding on the power button, you get "Digital assistant" by default.\
 To power off the emulator gracefully, you need to swipe down from the top menu, swipe the notification down then only you will see 3 tiny buttons at the bottom which includes the power button. This is cumbersome.\
 Open the Settings, search for "power menu" or go to System > Gestures > Press & hold power button.\
 Change to "Power menu".
 
-**11. Reinstall**
+**12. Reinstall**
 
 If the emulator fail to start, delete the folder e.g android-34 inside C:\SDK\system-images\
 Open B4A SDK Manager, download the new emulator image.\
 Once finished download, create a new emulator from B4A AVD Manager.
 
-**12. Play Protect**
+**13. Play Protect**
 
 There is no point to enable Play Protect and it's updates. If you are using a Google API Playstore emulator system image, open Play store app and tap on the 3 dots on top right corner and disable any settings that no applicable.
 
