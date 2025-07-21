@@ -88,5 +88,12 @@ Once finished download, create a new emulator from B4A AVD Manager.
 
 There is no point to enable Play Protect and it's updates. If you are using a Google API Playstore emulator system image, open Play store app and tap on the 3 dots on top right corner and disable any settings that no applicable.
 
+**14. Display problem for API 36**
+
+If the emulator exited while booting up, try to use the following command:
+```
+C:\android\sdk\emulator>emulator -avd 6in_Phone_Platform_36_google_apis -gpu swiftshader_indirect
+```
+
 ### Preview
 <img src="https://github.com/pyhoon/Tips-or-Tricks-for-using-Android-Emulator/raw/main/android-emulator.png" title="Android Emulator" width="320" />
