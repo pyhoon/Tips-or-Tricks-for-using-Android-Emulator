@@ -95,5 +95,9 @@ If the emulator exited while booting up, try to use the following command:
 C:\android\sdk\emulator>emulator -avd 6in_Phone_Platform_36_google_apis -gpu swiftshader_indirect
 ```
 
+**15. Scale down big window**
+
+If the emulator window is too big and appeared on top or out of the desktop screen, drag the emulator window down and press and hold Ctrl + Down keys to scale it down.
+
 ### Preview
 <img src="https://github.com/pyhoon/Tips-or-Tricks-for-using-Android-Emulator/raw/main/android-emulator.png" title="Android Emulator" width="320" />
