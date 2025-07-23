@@ -63,6 +63,10 @@ config.ini inside C:\SDK\B4AEmulator\6in_Phone_Platform_34_google_apis_playstore
 
 Set ```hw.mainKeys=no```
 
+**Update:** \
+This settings can now be set in Display & touch > Navigation mode. Select 3-button navigation. \
+To show only 3 buttons without other shortcut icons, increase the Display size as in tip#1 to 3 out of 4 of the slider.
+
 **10. Setting location in Google map**
 
 Use the 3 dots button to go to the Location setting.\
