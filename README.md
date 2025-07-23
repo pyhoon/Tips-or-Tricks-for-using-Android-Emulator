@@ -41,9 +41,10 @@ The clock always follow GMT +0\
 If you change this in Settings->System->Date & time. When the emulator reboots, it will back to default.\
 If you are using bat file to start the emulator, you can specify the timezone parameter.
 
-e.g.\
+```
 cd /d C:\SDK\emulator\
 emulator -avd 6in_Phone_Platform_34_google_apis -timezone Asia/Kuala_Lumpur
+```
 
 More commands: https://developer.android.com/studio/run/emulator-commandline
 
@@ -63,7 +64,8 @@ The Screenshot function is at the bottom.
 If you missed the classic navigation buttons (Triangle - Circle - Square) or (Back - Home - Recent Apps) then you can show it by modifying the setting in
 config.ini inside C:\SDK\B4AEmulator\6in_Phone_Platform_34_google_apis_playstore
 
-Set ```hw.mainKeys=no```
+Set
+```hw.mainKeys=no```
 
 **Update:** \
 This settings can now be set in Display & touch > Navigation mode. Select 3-button navigation. \
