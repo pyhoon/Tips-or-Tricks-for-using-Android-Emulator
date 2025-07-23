@@ -45,6 +45,8 @@ e.g.\
 cd /d C:\SDK\emulator\
 emulator -avd 6in_Phone_Platform_34_google_apis -timezone Asia/Kuala_Lumpur
 
+More commands: https://developer.android.com/studio/run/emulator-commandline
+
 **7. Add a keyboard for another language**
 
 Invoke the Google keyboard. Click on the gear icon.\
