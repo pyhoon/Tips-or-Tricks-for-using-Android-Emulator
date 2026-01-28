@@ -10,10 +10,8 @@ Change the value from the Font size and Display size sliders.
 **2. Improve screen resolution**
 
 While you can change the font size on display settings, the pixels are still too small.\
-Add hw.lcd.density=240 to the C:\Users\USERNAME\\.android\avd\EMULATOR_NAME.ini file.
-
-If this doesn't work for you, modify C:\SDK\B4AEmulator\EMULATOR_NAME.ini\
-```hw.lcd.density = 240```
+Modify config.ini inside C:\SDK\B4AEmulator\6in_Phone_Platform_36_google_apis
+```hw.lcd.density = 300```
 
 **3. Change wallpaper**
 
