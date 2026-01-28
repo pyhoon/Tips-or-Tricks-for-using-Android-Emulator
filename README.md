@@ -10,7 +10,7 @@ Change the value from the Font size and Display size sliders.
 **2. Improve screen resolution**
 
 While you can change the font size on display settings, the pixels are still too small.\
-Modify config.ini inside C:\SDK\B4AEmulator\6in_Phone_Platform_36_google_apis
+Modify config.ini inside C:\SDK\B4AEmulator\6in_Phone_Platform_36_google_apis \
 ```hw.lcd.density = 300```
 
 **3. Change wallpaper**
